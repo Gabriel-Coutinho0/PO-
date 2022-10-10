@@ -65,6 +65,7 @@ var ConsumoCliente = /** @class */ (function (_super) {
             _loop_1();
         }
         console.log("\nInserido com Sucesso");
+        console.log('---------------------------------------------');
     };
     return ConsumoCliente;
 }(cadastro_1.default));

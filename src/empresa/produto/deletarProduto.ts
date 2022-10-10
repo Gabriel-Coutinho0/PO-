@@ -19,7 +19,7 @@ export default class DeletarProduto extends Deletar {
         let index = this.produto.findIndex(prod => prod.getProdutoID == idProduto);
         if (index != undefined) {
 
-            this.produto.splice(index,1);
+            this.produto.splice(index, 1);
             console.log("Produto deletado!");
 
         } else {

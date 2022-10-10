@@ -2,30 +2,30 @@ import Cliente from "../model/cliente";
 import Listagem from "./listagem";
 
 
-export default class ListagemGenero extends Listagem{
+export default class ListagemGenero extends Listagem {
     private clientes: Array<Cliente>
-    constructor(cliente: Array<Cliente>){
+    constructor(cliente: Array<Cliente>) {
         super()
         this.clientes = cliente
-    } 
+    }
     public listar(): void {
         let feminino: Cliente[] = [];
         let masculino: Cliente[] = [];
-       
+
 
         this.clientes.forEach(clientes => {
-            if(clientes.genero === "M"){
+            if (clientes.genero === "M") {
                 masculino.push(clientes)
             }
-            if(clientes.genero === "F"){
+            if (clientes.genero === "F") {
                 feminino.push(clientes)
             }
         })
 
-    console.log("Listagem de Clientes por Gênero");
-    console.log('      ');
-    console.log('Clientes do Gênero Feminino:');
-    console.log('      ');
+        console.log("Listagem de Clientes por Gênero");
+        console.log('      ');
+        console.log('Clientes do Gênero Feminino:');
+        console.log('      ');
 
         feminino.forEach(fem => {
             console.log(`Nome: ` + fem.nome);
@@ -33,10 +33,10 @@ export default class ListagemGenero extends Listagem{
             console.log(`CPF: ` + fem.getCpf.getValor);
             console.log(`------------------`);
             console.log('      ');
-          });
+        });
 
-    console.log('Clientes do Gênero Masculino:');
-    console.log('      ');
+        console.log('Clientes do Gênero Masculino:');
+        console.log('      ');
 
         masculino.forEach(masc => {
             console.log(`Nome: ` + masc.nome);
@@ -44,7 +44,7 @@ export default class ListagemGenero extends Listagem{
             console.log(`CPF: ` + masc.getCpf.getValor);
             console.log(`-------------------`);
             console.log('      ');
-          });
-        
+        });
+
     }
 }

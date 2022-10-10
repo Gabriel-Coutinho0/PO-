@@ -8,10 +8,10 @@ export default class Produto {
         this.produtoID = produtoID
 
     }
-    public get getNome(): string{
+    public get getNome(): string {
         return this.nome
     }
-    public get getPreco():number {
+    public get getPreco(): number {
         return this.preco
     }
     public get getProdutoID(): number {

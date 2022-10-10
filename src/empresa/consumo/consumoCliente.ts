@@ -47,6 +47,8 @@ export default class ConsumoCliente extends Cadastro {
             }       
         }
         console.log(`\nInserido com Sucesso`);
+        console.log('---------------------------------------------');
+        
 
     }
 

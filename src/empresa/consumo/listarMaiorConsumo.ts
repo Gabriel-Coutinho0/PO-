@@ -2,20 +2,20 @@
 import Cliente from "../../model/cliente";
 import Listagem from "../listagem";
 
-export default class ListaMaiorConsumo extends Listagem{
-    private clientes: Array <Cliente>
-    
-    constructor(clientes: Array <Cliente>){
+export default class ListaMaiorConsumo extends Listagem {
+    private clientes: Array<Cliente>
+
+    constructor(clientes: Array<Cliente>) {
         super()
         this.clientes = clientes
     }
 
     public listar(): void {
         let nome, cpf, consumoTotal, ordenacao
-        let qtdConsumido: any  = [];
+        let qtdConsumido: any = [];
 
 
-        this.clientes.forEach( cliente => {
+        this.clientes.forEach(cliente => {
 
             nome = cliente.nome;
             cpf = cliente.getCpf.getValor
@@ -35,16 +35,16 @@ export default class ListaMaiorConsumo extends Listagem{
             return y.quantidade - x.quantidade;
         })
 
-        ordenacao = ordenacao.slice(0,10)
+        ordenacao = ordenacao.slice(0, 10)
 
         console.log("Listagem dos 10 Clientes que MAIS consumiram produtos ou servicos em quantidade.");
 
         console.log(`\n--------------------------------------\n`);
 
-        ordenacao.forEach( cliente => {
-            console.log(`Nome do Cliente: ${cliente.nome}` );
-            console.log(`CPF do Cliente: ${cliente.cpf}` );
-            console.log(`Quantidade de produtos e servicos Consumido pelo Cliente: ${cliente.quantidade}` );
+        ordenacao.forEach(cliente => {
+            console.log(`Nome do Cliente: ${cliente.nome}`);
+            console.log(`CPF do Cliente: ${cliente.cpf}`);
+            console.log(`Quantidade de produtos e servicos Consumido pelo Cliente: ${cliente.quantidade}`);
 
             console.log(`\n--------------------------------------\n`);
         })

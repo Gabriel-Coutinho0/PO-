@@ -38,6 +38,7 @@ var ListarServicoCliente = /** @class */ (function (_super) {
         cliente === null || cliente === void 0 ? void 0 : cliente.getProdutosConsumidos.forEach(function (produto) {
             console.log("Produto: ".concat(produto.nome, " Pre\u00E7o: ").concat(produto.preco));
         });
+        console.log('--------------------------------------------------------');
     };
     return ListarServicoCliente;
 }(listagem_1.default));

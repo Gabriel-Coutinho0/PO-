@@ -10,8 +10,8 @@ export default class ListagemProdutos extends Listagem {
 
     listar(): void {
         console.log(`\nLista de todos os produtos:\n `);
-        this.prodCadastrado.forEach(prod => {            
-            console.log(`Nome: ${prod.nome} \nPreço R$: ${prod.preco} ID:${prod.getProdutoID}`  );
+        this.prodCadastrado.forEach(prod => {
+            console.log(`Nome: ${prod.nome} \nPreço R$: ${prod.preco} ID:${prod.getProdutoID}`);
             console.log(`--------------------------------------`);
         });
 

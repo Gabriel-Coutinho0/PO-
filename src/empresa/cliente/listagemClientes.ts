@@ -24,9 +24,9 @@ export default class ListagemClientes extends Listagem {
                 console.log(`DDD: (${tel.getDdd}) - ${tel.getNumero} `);
             });
             console.log(`Data do cadastro: ` + cliente.getDataCadastro);
-            console.log(`--------------------------------------`);            
+            console.log(`--------------------------------------`);
         });
-        
+
         console.log(`\n`);
 
 
