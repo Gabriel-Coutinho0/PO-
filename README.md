@@ -26,5 +26,5 @@ npm install ou npm i
 ```
 - Rodar a aplicação
 ```
-node out/app/main.js
+node Js/main/app.js
 ```
