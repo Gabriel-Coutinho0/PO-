@@ -1,0 +1,29 @@
+ .btn {
+    height: 100px;
+    margin: 45px 0;
+
+}
+
+  .btn input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+}
+
+.btn input:hover {
+    background: -webkit-linear-gradient(45deg, #ffce51, #ff7253, #fd5754);
+}
+
+ .btn {
+
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
