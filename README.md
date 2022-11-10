@@ -1,7 +1,6 @@
 # FATEC Profº Jessen Vidal, SJC - 3º Semestre ADS
-## Atividade 1- Programação Orientada a Objeto
-O trabalho é desesnvolver uma agenda de clientes para o grupoWB.
-Esta agenda, será um sistema do tipo cli, que deverá funcionar sem uma interface gráfica, apenas por linha de comando.
+## Atividade 2- Programação Orientada a Objeto
+Atualizar o sistema com uma GUI moderna e que funcione tanto em navegadores comunsquanto em navegadores de dispositivos móveis, como celularese/ou tablets por exemplo.
 ## 👥 Equipe
 
 | Nome            | GitHub                                                       | Linkedin |
@@ -16,7 +15,7 @@ Para executar a aplicação será nescessário ter instalado o NodeJS em seu com
 git clone git@github.com:Gabriel-Coutinho0/PO-.git
 
 ```
-- Na pasta raiz
+Na pasta raiz
 - Instalação de dependencias
 ```
 npm install ou npm i
