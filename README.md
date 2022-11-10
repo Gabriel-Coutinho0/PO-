@@ -17,14 +17,11 @@ git clone git@github.com:Gabriel-Coutinho0/PO-.git
 
 ```
 - Na pasta raiz
-```
-npx tsc
-```
 - Instalação de dependencias
 ```
 npm install ou npm i
 ```
 - Rodar a aplicação
 ```
-node Js/main/app.js
+npm Start
 ```
