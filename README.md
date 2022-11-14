@@ -6,8 +6,10 @@
 <div id='equipe'>
 <h2> 🎓 Equipe de Desenvolvimento </h2>
 
-|Integrantes da Equipe|Linkedin|Github|
-|:---------|:-------:|:------:|
+| Nome            | GitHub                                                       | Linkedin |
+|-----------------|--------------------------------------------------------------|----------|
+| Gabriel Coutinho| <a href="https://github.com/Gabriel-Coutinho0" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/gabriel-silva-b778a31aa" target="_blank">Link</a>|
+| Antônio Barbosa | <a href="https://github.com/Antonio-Barbosa" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/antonio-marcelo-9a5b68181" target="_blank">Link</a>|
 
   
 <h2> ⛏️ Para executar a aplicação</h2>
