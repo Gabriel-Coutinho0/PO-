@@ -27,9 +27,9 @@ export default class ListarServMais extends Listagem {
 
         let ordenado = cliServico.sort((a: { quantidade: number; }, b: { quantidade: number; }) => {
             return b.quantidade - a.quantidade
-        }).slice(0, 1)
+        }).slice(0, 5)
 
-        console.log(`\nServiço mais consumido`);
+        console.log(`\nServiços mais consumidos`);
 
         console.log("-------------------------------------------------------")
 

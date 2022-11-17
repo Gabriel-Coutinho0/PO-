@@ -41,8 +41,8 @@ var ListarServMais = /** @class */ (function (_super) {
         });
         var ordenado = cliServico.sort(function (a, b) {
             return b.quantidade - a.quantidade;
-        }).slice(0, 1);
-        console.log("\nServi\u00E7o mais consumido");
+        }).slice(0, 5);
+        console.log("\nServi\u00E7os mais consumidos");
         console.log("-------------------------------------------------------");
         ordenado.forEach(function (consumidos) {
             console.log("Nome: ".concat(consumidos.nome));

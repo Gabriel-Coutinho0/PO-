@@ -18,11 +18,11 @@ export default class CadastroCliente extends Cadastro {
         console.log(`\nVamos cadastrar os cliente ;)`);
         let nome = this.entrada.receberTexto(`Nome do cliente: `);
         let nomeSocial = this.entrada.receberTexto(`Nome social do cliente: `);
-        let genero = this.entrada.receberTexto(`Qual genero (F-Feminino) (M-Masculino): `)
-        let valor = this.entrada.receberTexto(`Número do CPF: `);
-        let data = this.entrada.receberTexto(`Data da emissão do CPF no formato (dd/mm/aa): `);
+        let genero = this.entrada.receberGenero(`Qual genero (F-Feminino) (M-Masculino): `)
+        let valor = this.entrada.receberCpf(`Número do CPF: `);
+        let data = this.entrada.ReceberData(`Data da emissão do CPF no formato (dd/mm/aa): `);
         let valorRg = this.entrada.receberTexto(`Número do RG: `);
-        let dataRg = this.entrada.receberTexto(`Data emissão RG:`);
+        let dataRg = this.entrada.ReceberData(`Data emissão RG:`);
         let dddTel = this.entrada.receberTexto(`DDD telefone: `);
         let numeroTel = this.entrada.receberTexto(`Numero telefone: `);
 

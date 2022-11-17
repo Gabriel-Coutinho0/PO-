@@ -41,8 +41,8 @@ var ProdMaisConsumido = /** @class */ (function (_super) {
         });
         var ordenado = cliProd.sort(function (a, b) {
             return b.quantidade - a.quantidade;
-        }).slice(0, 1);
-        console.log("\nProduto mais consumido");
+        }).slice(0, 5);
+        console.log("\nProdutos mais consumidos");
         console.log("-------------------------------------------------------");
         ordenado.forEach(function (consumidos) {
             console.log("Nome: ".concat(consumidos.nome));

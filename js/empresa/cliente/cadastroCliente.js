@@ -36,11 +36,11 @@ var CadastroCliente = /** @class */ (function (_super) {
         console.log("\nVamos cadastrar os cliente ;)");
         var nome = this.entrada.receberTexto("Nome do cliente: ");
         var nomeSocial = this.entrada.receberTexto("Nome social do cliente: ");
-        var genero = this.entrada.receberTexto("Qual genero (F-Feminino) (M-Masculino): ");
-        var valor = this.entrada.receberTexto("N\u00FAmero do CPF: ");
-        var data = this.entrada.receberTexto("Data da emiss\u00E3o do CPF no formato (dd/mm/aa): ");
+        var genero = this.entrada.receberGenero("Qual genero (F-Feminino) (M-Masculino): ");
+        var valor = this.entrada.receberCpf("N\u00FAmero do CPF: ");
+        var data = this.entrada.ReceberData("Data da emiss\u00E3o do CPF no formato (dd/mm/aa): ");
         var valorRg = this.entrada.receberTexto("N\u00FAmero do RG: ");
-        var dataRg = this.entrada.receberTexto("Data emiss\u00E3o RG:");
+        var dataRg = this.entrada.ReceberData("Data emiss\u00E3o RG:");
         var dddTel = this.entrada.receberTexto("DDD telefone: ");
         var numeroTel = this.entrada.receberTexto("Numero telefone: ");
         var partesData = data.split('/');

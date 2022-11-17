@@ -26,9 +26,9 @@ export default class ProdMaisConsumido extends Listagem {
         })
         let ordenado = cliProd.sort((a: { quantidade: number; }, b: { quantidade: number; }) => {
             return b.quantidade - a.quantidade
-        }).slice(0, 1)
+        }).slice(0, 5)
 
-        console.log(`\nProduto mais consumido`);
+        console.log(`\nProdutos mais consumidos`);
 
         console.log("-------------------------------------------------------")
 
